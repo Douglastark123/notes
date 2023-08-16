@@ -1,0 +1,4 @@
+.TextArea:empty:not(:focus):before {
+  content: attr(placeholder);
+  opacity: 0.5;
+}
